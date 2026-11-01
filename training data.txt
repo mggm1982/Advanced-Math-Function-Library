@@ -1,0 +1,147 @@
+Training Data – Advanced Math Function Library
+The library I used is only iostream
+
+1. Factorial (n!)
+Input (n)	Expected output
+0		     1
+1	             1
+5	           120
+7	          5040
+10	       3628800
+
+2. Permutation (nPr)
+n	r	Expected output
+5	2	  20
+6	3	 120
+4	4	  24
+8	2	  56
+10	3	 720
+
+3. Combination (nCr)
+n	r	Expected output
+5	2	10
+6	3	20
+8	2	28
+10	4	210
+7	0	1
+
+4. Fibonacci Series
+Input (n)	Expected output
+0		    0
+1		    1
+5	            5
+7		   13
+10	           55
+
+5. Power (base^exp)
+Base	Exponent	Expected output
+2	  3		   8
+5	  2		  25
+3	  4		  81
+10	  3		1000
+7	  0		   1
+
+6. Modular Power
+Base	Exponent	Modulus	      Expected output
+2	  5		 7		4
+3	  4		 5		1
+5	  3		 13		8
+10	  2		 6		4
+7	  0	         9		1
+
+7–8. GCD and LCM
+Number 1	Number 2	GCD		LCM
+12	          18	         6		36
+20	          30	        10		60
+15	          25	         5		75
+7	          13	         1		91
+24	          36	        12		72
+
+9. Prime Number Check
+Input	       Expected output
+2		Prime
+7		Prime
+13		Prime
+15		Not Prime
+1		Not Prime
+0		Not Prime
+
+10. Print Primes up to N
+Input (N)		Expected output
+10			  2, 3, 5, 7
+20			  2, 3, 5, 7, 11, 13, 17, 19
+30			  2, 3, 5, 7, 11, 13, 17, 19, 23, 29
+
+11. Sum of Digits
+Input		Expected output
+123		     6
+456	            15
+999		    27
+1001		     2
+2026		    10
+
+12. Reverse Number
+Input		Expected output
+123		321
+456		654
+1200		21
+9876		6789
+100		1
+
+13. Palindrome Check
+Input		Expected output
+121		Palindrome
+1331		Palindrome
+12321		Palindrome
+123		Not Palindrome
+456		Not Palindrome
+
+14. Armstrong Number Check
+Input		Expected output
+153		Armstrong
+370		Armstrong
+371		Armstrong
+407		Armstrong
+123		Not Armstrong
+100		Not Armstrong
+
+15. Perfect Number Check
+Input		Expected output
+6		Perfect
+28		Perfect
+496		Perfect
+12		Not Perfect
+15		Not Perfect
+100		Not Perfect
+
+16. Square Root
+Input		Expected output
+0		0
+1		1
+4		2
+9		3
+25		5
+144		12
+2		1.4142
+
+17. Quadratic Equation Solver
+a	 b	c	Expected output
+1	-5	6	Roots: 2, 3
+1	-4	4	Repeated root: 2
+1	 0	1	Complex roots: +i, -i
+1	-7     12	Roots: 3, 4
+1	 2	5	Complex roots
+
+
+Additional training data: Invalid inputs
+These inputs help demonstrate how your program handles errors.
+Function	 	Input			Expected behaviour
+Factorial	 	 -5			  Invalid input
+Permutation		n=5, r=7		  Invalid input
+Combination		n=4, r=6		  Invalid input
+Fibonacci		-3			  Invalid input
+Power			2, -2			  Invalid input
+Modular Power		mod=0			  Invalid input
+Prime Check		1			  Not prime
+Square Root		-9			  Invalid input
+Quadratic Solver 	a=0, b=2, c=3		  Not a quadratic equation

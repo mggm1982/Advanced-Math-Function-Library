@@ -1,0 +1,6 @@
+base,exponent,modulus,expected_output
+2,6,5,4
+3,5,7,5
+4,3,9,1
+7,2,10,9
+11,3,13,5

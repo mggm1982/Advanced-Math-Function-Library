@@ -1,0 +1,6 @@
+a,b,c,expected_roots_or_result
+1,-5,6,Two real roots: 3 and 2
+1,-4,4,One repeated root: 2
+1,0,1,Complex roots: 0 + 1i and 0 - 1i
+1,-7,12,Two real roots: 4 and 3
+1,2,5,Complex roots: -1 + 2i and -1 - 2i

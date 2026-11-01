@@ -1,0 +1,7 @@
+n,expected_output
+1,Armstrong
+153,Armstrong
+370,Armstrong
+407,Armstrong
+1634,Armstrong
+1234,Not Armstrong

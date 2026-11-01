@@ -1,0 +1,6 @@
+n,expected_output
+11,Palindrome
+22,Palindrome
+1221,Palindrome
+45654,Palindrome
+1234,Not Palindrome

@@ -1,0 +1,10 @@
+Function,Input,Expected behaviour
+Factorial,n = -5,Invalid: n must be between 0 and 20
+Permutation,"n = 5, r = 7",Invalid: require 0 <= r <= n <= 20
+Combination,"n = 4, r = 6",Invalid: require 0 <= r <= n <= 60
+Fibonacci,n = -3,Invalid: n must be between 0 and 90
+Power,"base = 2, exponent = -2",Invalid: exponent must be >= 0
+Modular Power,"base = 2, exponent = 5, modulus = 0",Invalid: modulus must be positive
+Square Root,x = -9,Invalid: cannot take the square root of a negative number
+Quadratic Solver,"a = 0, b = 2, c = 3",Not a quadratic equation
+Primes up to N,N = 1,Invalid: N must be between 2 and 10000

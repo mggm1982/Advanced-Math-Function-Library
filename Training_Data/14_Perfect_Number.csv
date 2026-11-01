@@ -1,0 +1,7 @@
+n,expected_output
+6,Perfect
+28,Perfect
+496,Perfect
+8,Not Perfect
+20,Not Perfect
+50,Not Perfect

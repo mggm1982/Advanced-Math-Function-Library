@@ -1,0 +1,7 @@
+n,expected_output
+3,Prime
+5,Prime
+11,Prime
+17,Prime
+21,Not Prime
+25,Not Prime
